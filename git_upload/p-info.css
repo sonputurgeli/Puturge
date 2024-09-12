@@ -1,0 +1,365 @@
+body {
+  background-color: #f8e6d1;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0cm;
+  text-align: left;
+  color: rgb(50, 50, 50);
+  /* margin padding 0 sayesinde sitenin divlerinin kenarlarla arasında mesafe kalmadı*/
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "League Spartan" sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0cm;
+  text-align: left;
+  color: #190D37;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "League Spartan" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0cm;
+  text-align: left;
+  color: black;
+
+}
+
+.h1text {
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Poppins" sans-serif;
+}
+
+.Hero-section {
+  display: flex;
+  width: 1040px;
+  margin: auto;
+
+
+}
+
+.h-text {
+  width: 60%;
+
+  padding: 32px 0px 32px 32px;
+  /* sıralama saat yönünde ilerliyor topdan başlıyor*/
+
+}
+
+.h-image-div {
+  display: flex;
+  width: 40%;
+  height: 300px;
+  border-radius: 40px 40px 40px 40px;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.h-image {
+  width: 65%;
+  height: 300px;
+  border-radius: 40px 40px 40px 40px;
+  transition: all 0.55s;
+  margin-right: 25px;
+}
+
+.h-image:hover {
+  width: 70%;
+  height: 325px;
+}
+
+.email-phone {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  font-family: Inter;
+  color: black;
+
+}
+
+.name {
+  margin-top: 52px;
+}
+
+.button1-div {
+  display: flex;
+}
+
+.button1 {
+  height: 44px;
+  width: 138px;
+  border-radius: 4px;
+  background-color: #2F2F2F;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 20px;
+}
+
+.pricing-section {
+  max-width: 1060px;
+  margin: 38px auto;
+  /* top bottom 0. auto yanal olarak ortalanma*/
+}
+
+.p-word,
+.do-word {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #2858FF;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.p-warning {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  /*bunu koymazsan yeni satırda harfler ortadan girmek yerine divin solunda başlar*/
+}
+
+.p-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 8px auto 48px auto;
+
+}
+
+.boxes {
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box1 {
+  height: 290px;
+  background-color: lightgray;
+  width: 33%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.box2 {
+  height: 290px;
+  background-color: #FFD748;
+  width: 33%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.box3 {
+  height: 290px;
+  background-color: lightgray;
+  width: 33%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.service {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2858FF;
+}
+
+.price {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  /* line height yazının ortada durup divin genişliğini ayarlamak gibi bişey display flex height 54 align items center bunla aynıya geliyor*/
+  margin-top: 8px;
+}
+
+.p-p-p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8A8A8A;
+}
+
+.p-description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8B8B8B;
+  margin-top: 8px;
+}
+
+.b-list {
+  padding: 0;
+}
+
+.b-list li {
+
+  list-style-type: none;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.button2 {
+  background-color: #2F2F2F;
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+  border: 2px solid #2F2F2F;
+  color: white;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+  font-family: Inter;
+  transition: all 0.25s;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: #FFD748;
+  color: #2F2F2F;
+}
+
+.box2 .service {
+  /* box 2 deki service divi targetleniyor*/
+  color: black;
+}
+
+.button3 {
+  background-color: #2F2F2F;
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+  border: 2px solid #2F2F2F;
+  color: white;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+  font-family: Inter;
+  transition: all 0.25s;
+}
+
+.button3:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: #2F2F2F;
+}
+
+.Footer-section {
+  text-align: center;
+  background-color: #2F2F2F;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.call-p {
+  margin-right: 5px;
+}
+
+.number-call-div {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.email-div {
+  display: flex;
+}
+
+.e-symbol {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.do-section {
+  width: 1240px;
+  margin: auto;
+
+}
+
+.do-info {
+  margin: 0px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.do-text {
+  margin: 20px auto 0px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.boxes2 {
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.paper1 {
+  height: 290px;
+  background: #FFFFFF;
+  width: 25%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.paper2 {
+  height: 290px;
+  background: #FFFFFF;
+  width: 25%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.paper3 {
+  height: 290px;
+  background: #FFFFFF;
+  width: 25%;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  padding: 20px;
+  margin: 0px 10px;
+}
+
+.paper-T {
+  text-align: center;
+  font-family: Inter;
+  margin-top: 25px;
+}
+
+.paper-w {
+  margin-top: 25px;
+  text-align: center;
+}
