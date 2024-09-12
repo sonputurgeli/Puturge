@@ -1,0 +1,79 @@
+<!--  -->
+<!-- tr lerin her biri 1 katman. yazılım sırasına göre çıkarlar th ler headingler.rowspan le satır colspan le sütün kaplama alanı ayarlanır   -->
+<!--  justify-items,her öğenin konteyner içinde yatay eksen boyunca nasıl hizalanacağını belirler.Bu özellik sadece grid düzenlerde kullanılır.-->
+<!--  justify-content, konteynerin içindeki tüm öğelerin yatay eksende nasıl hizalanacağını belirler. Bu özellik, flexbox, grid, ve inline-block düzenlerde kullanılır -->
+<!-- align-items,konteynerin içindeki elemanların dikey eksende nasıl hizalanacağını belirler.Bu özellik,flexbox ve grid düzenlerde kullanılır-->
+<!-- border collapse collapse köşelerin yan yana gelmesini engelleyip birleştiriyor. border right sadece sağa kenar koyuyor -->
+<!--.table1 tr:nth-child(odd) yaptığı şey 1 1 boşluklu renk vermek tablodaki satırlara.0 dan başlıyosun saymaya 0. 1. satır diye gidiyo  -->
+<!-- text align: justify tüm textlerin sonunu eşit hizada bitirtir  -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .table1 {
+      width: 75%;
+      border: 1px solid gray;
+      border-collapse: collapse;
+    }
+
+    .table1 tr:nth-child(odd) {
+      background-color: rgb(44, 195, 64);
+    }
+
+
+    .div1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .header th {
+      background-color: aquamarine;
+      border: 2px solid skyblue;
+      padding: 6px;
+      text-align: center;
+    }
+
+    .row td {
+      border-right: 1px solid gold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div1">
+    <table class="table1">
+      <tr class="header">
+        <th rowspan="2">heading 1</th>
+        <th colspan="2">Location</th>
+        <th rowspan="2">heading 3</th>
+      </tr>
+      <tr class="header">
+        <th>Country</th>
+        <th>City</th>
+      </tr>
+      <tr class="row">
+        <td>data1</td>
+        <td>US</td>
+        <td>Texas</td>
+      </tr>
+      <tr class="row">
+        <td>data3</td>
+        <td>data4</td>
+        <td>nothing</td>
+      <tr class="row">
+        <td>datax</td>
+        <td>datay</td>
+        <td>nothinz</td>
+      <tr class="row">
+        <td>dataQ</td>
+        <td>data4Z</td>
+        <td>nothingP</td>
+      </tr>
+    </table>
+
+  </div>
+
+</body>
+
+</html>

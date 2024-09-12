@@ -1,0 +1,112 @@
+<!--  -->
+<!-- ol ordered lists 1 2 diye gider ul unordered lists sadece nokta olur başlarında  -->
+<!-- herhangi bir textin yerini ayarlamak istiyorsan text align kullan  -->
+<!-- width %100 yanal olarak müsait tüm alanı kaplar. margin : auto ise widthi sayfanın ortasına yanal olarak yerleştirir  -->
+<!-- text decoration : none underline ı siliyor. list style none listenin başındaki belirteçleri kaldırır  -->
+<!-- float komutu elementin konteynerin(div) neresinde olcağını belirler -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .under-title {
+      display: flex;
+      background-color: gold;
+    }
+
+    .div1 {
+      width: 50%;
+    }
+
+    .div2 {
+      width: 50%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <img src="photos/Rectangle_12.png" height="240px" style="width: 100.4%;display: flex; left: 0; object-fit: cover;">
+  <h1 style="text-align: center;">TITLE</h1>
+  <div class="under-title">
+    <div class="div1">
+      div1
+    </div>
+    <div class="div2">
+      div2
+    </div>
+  </div>
+  <p>
+    this is the <b>test</b> of the first lesson
+  </p>
+  <p>
+    malatya ziyaret edilecek yerler:
+  <ol>
+
+    <li>
+      <a href="https://x.com/home" target="_blank">
+        çay
+      </a>
+    </li>
+    <li>doğanyol</li>
+    <li>çermik</li>
+  </ol>
+  </p>
+  <h2 style="text-align: center;">
+    Move on
+  </h2>
+  <div>
+    <h3>
+      Frontend
+    </h3>
+    <span>
+      devoloper
+    </span>
+    <a href="mailto:nplm50@gmail.com?subject=reservation" style="float: right;" target="_blank">apply</a>
+  </div>
+  <div>
+    <h3>
+      Backend
+    </h3>
+    <span>Puturge</span>
+  </div>
+  <div>
+    <h3>
+      Data Scientist
+    </h3>
+    <span>
+      şiro çayı
+    </span>
+  </div>
+
+  <div>
+    <ul style="list-style: none;">
+      <li>
+        courses
+      </li>
+      <li>
+        programs
+
+      </li>
+      <li>
+        zarato
+      </li>
+    </ul>
+  </div>
+</body>
+
+
+</html>
